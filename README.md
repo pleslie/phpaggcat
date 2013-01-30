@@ -9,9 +9,9 @@ Steps for using this sample:
 
 2) Download http://simplesamlphp.org/download to a location of your choice, read-able and execute-able by your apache user
 
-3) Download the two files in this source sample, again to a location of your choice
+3) Download the three files in this source sample, again to a location of your choice
 
-4) Update the "define" settings at the top of class.aggcatauth.php with values that you've received from Intuit during the Agg & Cat onboarding wizard
+4) Update the "define" settings at the top of config.php with values that you've received from Intuit during the Agg & Cat onboarding wizard
 
 
 Other Useful Resources
