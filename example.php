@@ -1,5 +1,5 @@
 <?php
-
+require_once('config.php');
 require_once("class.aggcatauth.php");
 
 IntuitAggCatHelpers::GetOAuthTokens(&$oauth_token, &$oauth_token_secret);
@@ -20,8 +20,9 @@ $signatures = array( 'consumer_key'     => OAUTH_CONSUMER_KEY,
 $oauthObject = new OAuthSimple();
 $oauthObject->reset();
 $result = $oauthObject->sign(array(
-    'path'      =>'https://financialdatafeed.platform.intuit.com/v1/institutions',
-    'parameters'=> array('oauth_signature_method' => 'HMAC-SHA1', 'Host'=>'financialdatafeed.platform.intuit.com'),
+    'path'      => FINANCIAL_FEED_URL .'v1/institutions',
+    'parameters'=> array('oauth_signature_method' => 'HMAC-SHA1', 
+    'Host'=> FINANCIAL_FEED_HOST),
     'signatures'=> $signatures));
 
 $options = array();
