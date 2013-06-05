@@ -17,8 +17,8 @@ Steps for using this sample:
 Other Useful Resources
 =========
 
-Intuit's steps for becoming authorized to integrate with Agg & Cat: https://ipp.developer.intuit.com/index.php?title=0010_Intuit_Partner_Platform/0020_Aggregation_%26_Categorization_Apps/0010_GettingStarted/0015_Create_an_Agg_%26_Cat_integration
+Intuit's steps for becoming authorized to integrate with Agg & Cat: https://developer.intuit.com/docs/0020_aggregation_categorization_apps/009_using_aggcat
 
-Intuit's documentation of an example SAML Assertion: https://ipp.developer.intuit.com/index.php?title=0010_Intuit_Partner_Platform/0020_Aggregation_%26_Categorization_Apps/0010_GettingStarted/0025_Making_Your_First_Connection/SAML_Assertion_Sample
+Intuit's documentation of an example SAML Assertion: https://developer.intuit.com/docs/0020_aggregation_categorization_apps/009_using_aggcat/0010_gettingstarted/0025_making_your_first_connection/saml_assertion_sample
 
 
