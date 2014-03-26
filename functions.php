@@ -5,7 +5,12 @@ function splitHeadersBody( $responseText )
 	$parts = explode( "\r\n\r\n", $responseText );
 
 	$headers = $parts[0];
-	$body = $parts[1];
+
+	$body = '';
+	if( count( $parts ) > 1 )
+	{
+		$body = $parts[1];
+	}
 
 	if ( strtolower( $headers ) == 'http/1.1 100 continue' )
 	{
