@@ -26,7 +26,7 @@ define( 'FINANCIAL_FEED_HOST', 'financialdatafeed.platform.intuit.com' );
 define( 'FINANCIAL_FEED_URL', 'https://' . FINANCIAL_FEED_HOST . '/' );
 
 // require our needed libraries and some local project functions.
-require_once SIMPLESAML_PATH . '/lib/xmlseclibs.php';
+require_once SIMPLESAML_PATH . '/vendor/simplesamlphp/xmlseclibs/xmlseclibs.php';
 require_once SIMPLESAML_PATH . '/lib/SimpleSAML/Utilities.php';
 require_once SIMPLEOAUTH_PATH . '/OAuthSimple.php';
 require_once dirname( __FILE__ ) . '/functions.php';
